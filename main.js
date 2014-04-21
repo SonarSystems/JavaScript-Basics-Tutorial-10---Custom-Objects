@@ -1,4 +1,6 @@
-var superHero = new Object();
-superHero.name = "Superman";
+var superHero = { name:"Batman", location: "Gotham City", awesomeness:1000 };
 
-alert(superHero.name);
+var superHero2 = new Object();
+superHero2.name = "Superman";
+
+alert(superHero.location);
